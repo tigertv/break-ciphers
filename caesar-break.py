@@ -7,7 +7,7 @@ from ngramscore import NGramScore
 
 alphabet = alphabets.GERMAN
 
-fitness = NGramScore('output.txt')
+fitness = NGramScore('de.txt')
 cipher = Caesar()
 
 def crack(ctext):
