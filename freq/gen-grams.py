@@ -15,6 +15,7 @@ def readfile(filename):
             output = f.read().splitlines()
     except IOError:
         print("IOError!!!")
+        usage()
         sys.exit(3)
     return output
 
